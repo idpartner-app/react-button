@@ -1,6 +1,6 @@
 {
   "name": "@idpartner/react-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IDPartner Button",
   "scripts": {
     "build": "yarn build:esm && yarn build:cjs",
