@@ -1,5 +1,5 @@
 import './App.css';
-import IDPartnerButton from '@idpartner-app/react-button';
+import IDPartnerButton from '@idpartner/react-button';
 
 function App() {
     const options = {
