@@ -1,13 +1,26 @@
 {
   "name": "@idpartner-app/react-button",
   "version": "1.0.0",
-  "license": "MIT",
   "description": "IDPartner Button",
   "scripts": {
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs"
   },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/idpartner-app/react-button.git"
+  },
+  "keywords": [
+    "idpartner",
+    "identity",
+    "react",
+    "npm"
+  ],
+  "author": "IDPartner Engineering <engineering@idpartner.com> (https://idpartner.com)",
+  "license": "MIT",
+  "bugs": "https://github.com/idpartner-app/react-button/issues",
+  "homepage": "https://github.com/idpartner-app/react-button",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
