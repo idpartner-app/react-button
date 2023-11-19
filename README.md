@@ -29,8 +29,7 @@ import IDPartnerButton from '@idpartner/react-button';
 
 function App() {
   const options = {
-    clientId: 'your-client-id', // Replace with your CLIENT_ID
-    // Add any additional custom options as needed
+    clientId: 'your-client-id', // Replace with your Client ID
   };
 
   return (
