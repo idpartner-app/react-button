@@ -3,13 +3,14 @@ import React from 'react';
 interface ButtonComponentProps {
     options: {
         clientId: string;
+        buttonScriptUri?: string;
     };
 }
 
 const ButtonComponent: React.FC<ButtonComponentProps> = ({ options }) => {
     React.useEffect(() => {
         const script = document.createElement('script');
-        script.src = `https://install.idpartner.com/button.js`;
+        script.src = options.buttonScriptUri ?? `https://install.idpartner.com/button.js`;
         document.body.appendChild(script);
 
         return () => {

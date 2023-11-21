@@ -18,7 +18,7 @@ yarn add @idpartner/react-button
 
 # Using npm
 npm install @idpartner/react-button
-
+```
 ## Basic Usage
 
 To incorporate the IDPartner Button into your React application, simply import it and include the desired clientId and any additional custom options:

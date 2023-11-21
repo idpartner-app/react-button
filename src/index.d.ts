@@ -2,6 +2,7 @@ declare module 'ButtonComponent' {
     interface ButtonComponentProps {
         options: {
             clientId: string;
+            buttonScriptUri?: string;
         };
     }
 
